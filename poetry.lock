@@ -208,7 +208,7 @@ description = "Timeout context manager for asyncio programs"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"vector-stores-postgres\" or extra == \"storage-nodestore-postgres\""
+markers = "extra == \"storage-nodestore-postgres\" or extra == \"vector-stores-postgres\""
 files = [
     {file = "async-timeout-4.0.3.tar.gz", hash = "sha256:4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f"},
     {file = "async_timeout-4.0.3-py3-none-any.whl", hash = "sha256:7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028"},
@@ -221,7 +221,7 @@ description = "An asyncio PostgreSQL driver"
 optional = true
 python-versions = ">=3.8.0"
 groups = ["main"]
-markers = "extra == \"vector-stores-postgres\" or extra == \"storage-nodestore-postgres\""
+markers = "extra == \"storage-nodestore-postgres\" or extra == \"vector-stores-postgres\""
 files = [
     {file = "asyncpg-0.29.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:72fd0ef9f00aeed37179c62282a3d14262dbbafb74ec0ba16e1b1864d8a12169"},
     {file = "asyncpg-0.29.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:52e8f8f9ff6e21f9b39ca9f8e3e33a5fcdceaf5667a8c5c32bee158e313be385"},
@@ -300,7 +300,7 @@ description = "Microsoft Azure Core Library for Python"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\""
 files = [
     {file = "azure_core-1.31.0-py3-none-any.whl", hash = "sha256:22954de3777e0250029360ef31d80448ef1be13b80a459bff80ba7073379e2cd"},
     {file = "azure_core-1.31.0.tar.gz", hash = "sha256:656a0dd61e1869b1506b7c6a3b31d62f15984b1a573d6326f6aa2f3e4123284b"},
@@ -321,7 +321,7 @@ description = "Microsoft Azure Identity Library for Python"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\""
 files = [
     {file = "azure_identity-1.18.0-py3-none-any.whl", hash = "sha256:bccf6106245b49ff41d0c4cd7b72851c5a2ba3a32cef7589da246f5727f26f02"},
     {file = "azure_identity-1.18.0.tar.gz", hash = "sha256:f567579a65d8932fa913c76eddf3305101a15e5727a5e4aa5df649a0f553d4c3"},
@@ -463,7 +463,7 @@ description = "The AWS SDK for Python"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-sagemaker\" or extra == \"embeddings-sagemaker\""
+markers = "extra == \"embeddings-sagemaker\" or extra == \"llms-sagemaker\""
 files = [
     {file = "boto3-1.35.27-py3-none-any.whl", hash = "sha256:3da139ca038032e92086e26d23833b557f0c257520162bfd3d6f580bf8032c86"},
     {file = "boto3-1.35.27.tar.gz", hash = "sha256:10d0fe15670b83a3f26572ab20d9152a064cee4c54b5ea9a1eeb1f0c3b807a7b"},
@@ -484,7 +484,7 @@ description = "Low-level, data-driven core of boto 3."
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-sagemaker\" or extra == \"embeddings-sagemaker\""
+markers = "extra == \"embeddings-sagemaker\" or extra == \"llms-sagemaker\""
 files = [
     {file = "botocore-1.35.27-py3-none-any.whl", hash = "sha256:c299c70b5330a8634e032883ce8a72c2c6d9fdbc985d8191199cb86b92e7cbbd"},
     {file = "botocore-1.35.27.tar.gz", hash = "sha256:f68875c26cd57a9d22c0f7a981ecb1636d7ce4d0e35797e04765b53e7bfed3e7"},
@@ -530,7 +530,7 @@ description = "Extensible memoizing collections and decorators"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "cachetools-5.5.0-py3-none-any.whl", hash = "sha256:02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292"},
     {file = "cachetools-5.5.0.tar.gz", hash = "sha256:2cc24fb4cbe39633fb7badd9db9ca6295d766d9c2995f245725a46715d050f2a"},
@@ -1283,7 +1283,7 @@ description = "Distro - an OS platform information API"
 optional = true
 python-versions = ">=3.6"
 groups = ["main"]
-markers = "extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\" or extra == \"embeddings-openai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\" or extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"embeddings-openai\""
 files = [
     {file = "distro-1.9.0-py3-none-any.whl", hash = "sha256:7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2"},
     {file = "distro-1.9.0.tar.gz", hash = "sha256:2fa77c6fd8940f116ee1d6b94a2f90b13b5ea8d019b98bc8bafdcabcdd9bdbed"},
@@ -1703,7 +1703,7 @@ description = "Google Ai Generativelanguage API client library"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "google-ai-generativelanguage-0.6.4.tar.gz", hash = "sha256:1750848c12af96cb24ae1c3dd05e4bfe24867dc4577009ed03e1042d8421e874"},
     {file = "google_ai_generativelanguage-0.6.4-py3-none-any.whl", hash = "sha256:730e471aa549797118fb1c88421ba1957741433ada575cf5dd08d3aebf903ab1"},
@@ -1722,7 +1722,7 @@ description = "Google API client core library"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "google_api_core-2.20.0-py3-none-any.whl", hash = "sha256:ef0591ef03c30bb83f79b3d0575c3f31219001fc9c5cf37024d08310aeffed8a"},
     {file = "google_api_core-2.20.0.tar.gz", hash = "sha256:f74dff1889ba291a4b76c5079df0711810e2d9da81abfdc99957bc961c1eb28f"},
@@ -1749,7 +1749,7 @@ description = "Google API Client Library for Python"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "google_api_python_client-2.147.0-py2.py3-none-any.whl", hash = "sha256:c6ecfa193c695baa41e84562d8f8f244fcd164419eca3fc9fd7565646668f9b2"},
     {file = "google_api_python_client-2.147.0.tar.gz", hash = "sha256:e864c2cf61d34c00f05278b8bdb72b93b6fa34f0de9ead51d20435f3b65f91be"},
@@ -1769,7 +1769,7 @@ description = "Google Authentication Library"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "google_auth-2.35.0-py2.py3-none-any.whl", hash = "sha256:25df55f327ef021de8be50bad0dfd4a916ad0de96da86cd05661c9297723ad3f"},
     {file = "google_auth-2.35.0.tar.gz", hash = "sha256:f4c64ed4e01e8e8b646ef34c018f8bf3338df0c8e37d8b3bba40e7f574a3278a"},
@@ -1794,7 +1794,7 @@ description = "Google Authentication Library: httplib2 transport"
 optional = true
 python-versions = "*"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "google-auth-httplib2-0.2.0.tar.gz", hash = "sha256:38aa7badf48f974f1eb9861794e9c0cb2a0511a4ec0679b1f886d108f5640e05"},
     {file = "google_auth_httplib2-0.2.0-py2.py3-none-any.whl", hash = "sha256:b65a0a2123300dd71281a7bf6e64d65a0759287df52729bdd1ae2e47dc311a3d"},
@@ -1811,7 +1811,7 @@ description = "Google Generative AI High level API client library and tools."
 optional = true
 python-versions = ">=3.9"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "google_generativeai-0.5.4-py3-none-any.whl", hash = "sha256:036d63ee35e7c8aedceda4f81c390a5102808af09ff3a6e57e27ed0be0708f3c"},
 ]
@@ -1836,7 +1836,7 @@ description = "Common protobufs used in Google APIs"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "googleapis_common_protos-1.65.0-py2.py3-none-any.whl", hash = "sha256:2972e6c496f435b92590fd54045060867f3fe9be2c82ab148fc8885035479a63"},
     {file = "googleapis_common_protos-1.65.0.tar.gz", hash = "sha256:334a29d07cddc3aa01dee4988f9afd9b2916ee2ff49d6b757155dc0d197852c0"},
@@ -2009,7 +2009,7 @@ description = "HTTP/2-based RPC framework"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-qdrant\" or extra == \"vector-stores-milvus\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\" or extra == \"vector-stores-milvus\" or extra == \"vector-stores-qdrant\""
 files = [
     {file = "grpcio-1.66.1-cp310-cp310-linux_armv7l.whl", hash = "sha256:4877ba180591acdf127afe21ec1c7ff8a5ecf0fe2600f0d3c50e8c4a1cbc6492"},
     {file = "grpcio-1.66.1-cp310-cp310-macosx_12_0_universal2.whl", hash = "sha256:3750c5a00bd644c75f4507f77a804d0189d97a107eb1481945a0cf3af3e7a5ac"},
@@ -2069,7 +2069,7 @@ description = "Status proto mapping for gRPC"
 optional = true
 python-versions = ">=3.6"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "grpcio-status-1.62.3.tar.gz", hash = "sha256:289bdd7b2459794a12cf95dc0cb727bd4a1742c37bd823f760236c937e53a485"},
     {file = "grpcio_status-1.62.3-py3-none-any.whl", hash = "sha256:f9049b762ba8de6b1086789d8315846e094edac2c50beaf462338b301a8fd4b8"},
@@ -2215,7 +2215,7 @@ description = "A comprehensive HTTP client library."
 optional = true
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "httplib2-0.22.0-py3-none-any.whl", hash = "sha256:14ae0a53c1ba8f3d37e9e27cf37eabb0fb9980f435ba405d546948b009dd64dc"},
     {file = "httplib2-0.22.0.tar.gz", hash = "sha256:d7a10bc5ef5ab08322488bde8c726eeee5c8618723fdb399597ec58f3d82df81"},
@@ -2424,7 +2424,7 @@ description = "Read resources from Python packages"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"vector-stores-chroma\" or extra == \"ui\""
+markers = "extra == \"ui\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "importlib_resources-6.4.5-py3-none-any.whl", hash = "sha256:ac29d5f956f01d5e4bb63102a5a19957f1b9175e45649977264a1416783bb717"},
     {file = "importlib_resources-6.4.5.tar.gz", hash = "sha256:980862a1d16c9e147a59603677fa2aa5fd82b87f223b6cb870695bcfce830065"},
@@ -2479,14 +2479,14 @@ files = [
 
 [[package]]
 name = "jinja2"
-version = "3.1.4"
+version = "3.1.6"
 description = "A very fast and expressive template engine."
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "jinja2-3.1.4-py3-none-any.whl", hash = "sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"},
-    {file = "jinja2-3.1.4.tar.gz", hash = "sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369"},
+    {file = "jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"},
+    {file = "jinja2-3.1.6.tar.gz", hash = "sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"},
 ]
 
 [package.dependencies]
@@ -2502,7 +2502,7 @@ description = "Fast iterable JSON parser."
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\" or extra == \"embeddings-openai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\" or extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"embeddings-openai\""
 files = [
     {file = "jiter-0.5.0-cp310-cp310-macosx_10_12_x86_64.whl", hash = "sha256:b599f4e89b3def9a94091e6ee52e1d7ad7bc33e238ebb9c4c63f211d74822c3f"},
     {file = "jiter-0.5.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:2a063f71c4b06225543dddadbe09d203dc0c95ba352d8b85f1221173480a71d5"},
@@ -2574,7 +2574,7 @@ description = "JSON Matching Expressions"
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-sagemaker\" or extra == \"embeddings-sagemaker\""
+markers = "extra == \"embeddings-sagemaker\" or extra == \"llms-sagemaker\""
 files = [
     {file = "jmespath-1.0.1-py3-none-any.whl", hash = "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"},
     {file = "jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"},
@@ -2912,7 +2912,7 @@ description = "llama-index embeddings openai integration"
 optional = true
 python-versions = "<4.0,>=3.8.1"
 groups = ["main"]
-markers = "extra == \"embeddings-openai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"embeddings-openai\""
 files = [
     {file = "llama_index_embeddings_openai-0.2.5-py3-none-any.whl", hash = "sha256:823c8311e556349ba19dda408a64a314fa3dafe0e5759709c54d33a0269aa6ba"},
     {file = "llama_index_embeddings_openai-0.2.5.tar.gz", hash = "sha256:0047dd71d747068645ed728c29312aa91b65bbe4c6142180034c64dfc5c6f6e8"},
@@ -2929,7 +2929,7 @@ description = "llama-index llms azure openai integration"
 optional = true
 python-versions = "<4.0,>=3.8.1"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\""
 files = [
     {file = "llama_index_llms_azure_openai-0.2.1-py3-none-any.whl", hash = "sha256:263d4345d2f50a91bd753172b2edee0452a692553bda138b3da81bb8536d9e78"},
     {file = "llama_index_llms_azure_openai-0.2.1.tar.gz", hash = "sha256:18270461da3752711051cc30be527c8a4bda3b2734e950966d06eab775a05705"},
@@ -3000,7 +3000,7 @@ description = "llama-index llms openai integration"
 optional = true
 python-versions = "<4.0,>=3.8.1"
 groups = ["main"]
-markers = "extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\" or extra == \"llms-openai\" or extra == \"llms-openai-like\""
 files = [
     {file = "llama_index_llms_openai-0.2.9-py3-none-any.whl", hash = "sha256:5f36e8cbca2c3c657380c711bd3974fe7e2344d3b6a8dde6c263e56868d01e27"},
     {file = "llama_index_llms_openai-0.2.9.tar.gz", hash = "sha256:56376f39e3a40253b5c4fb90d0fb6af093f21bb2935925615f0c28a28d028187"},
@@ -3648,7 +3648,7 @@ description = "The Microsoft Authentication Library (MSAL) for Python library en
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\""
 files = [
     {file = "msal-1.31.0-py3-none-any.whl", hash = "sha256:96bc37cff82ebe4b160d5fc0f1196f6ca8b50e274ecd0ec5bf69c438514086e7"},
     {file = "msal-1.31.0.tar.gz", hash = "sha256:2c4f189cf9cc8f00c80045f66d39b7c0f3ed45873fd3d1f2af9f22db2e12ff4b"},
@@ -3669,7 +3669,7 @@ description = "Microsoft Authentication Library extensions (MSAL EX) provides a 
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\""
 files = [
     {file = "msal_extensions-1.2.0-py3-none-any.whl", hash = "sha256:cf5ba83a2113fa6dc011a254a72f1c223c88d7dfad74cc30617c4679a417704d"},
     {file = "msal_extensions-1.2.0.tar.gz", hash = "sha256:6f41b320bfd2933d631a215c91ca0dd3e67d84bd1a2f50ce917d5874ec646bef"},
@@ -4173,7 +4173,7 @@ description = "The official Python client for Ollama."
 optional = true
 python-versions = "<4.0,>=3.8"
 groups = ["main"]
-markers = "extra == \"llms-ollama\" or extra == \"embeddings-ollama\""
+markers = "extra == \"embeddings-ollama\" or extra == \"llms-ollama\""
 files = [
     {file = "ollama-0.3.3-py3-none-any.whl", hash = "sha256:ca6242ce78ab34758082b7392df3f9f6c2cb1d070a9dede1a4c545c929e16dba"},
     {file = "ollama-0.3.3.tar.gz", hash = "sha256:f90a6d61803117f40b0e8ff17465cab5e1eb24758a473cfe8101aff38bc13b51"},
@@ -4233,7 +4233,7 @@ description = "The official Python library for the openai API"
 optional = true
 python-versions = ">=3.7.1"
 groups = ["main"]
-markers = "extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\" or extra == \"embeddings-openai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\" or extra == \"llms-openai\" or extra == \"llms-openai-like\" or extra == \"embeddings-openai\""
 files = [
     {file = "openai-1.48.0-py3-none-any.whl", hash = "sha256:7c4af223f0bf615ce4a12453729952c9a8b04ffe8c78aa77981b12fd970149cf"},
     {file = "openai-1.48.0.tar.gz", hash = "sha256:1d3b69ea62c287c4885a6f3ce840768564cd5f52c60ac5f890fef80d43cc4799"},
@@ -4775,7 +4775,7 @@ description = "Wraps the portalocker recipe for easy usage"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\" or extra == \"vector-stores-qdrant\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\" or extra == \"vector-stores-qdrant\""
 files = [
     {file = "portalocker-2.10.1-py3-none-any.whl", hash = "sha256:53a5984ebc86a025552264b459b46a2086e269b21823cb572f8f28ee759e45bf"},
     {file = "portalocker-2.10.1.tar.gz", hash = "sha256:ef1bf844e878ab08aee7e40184156e1151f228f103aa5c6bd0724cc330960f8f"},
@@ -4840,7 +4840,7 @@ description = "Beautiful, Pythonic protocol buffers."
 optional = true
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "proto-plus-1.24.0.tar.gz", hash = "sha256:30b72a5ecafe4406b0d339db35b56c4059064e69227b8c3bda7462397f966445"},
     {file = "proto_plus-1.24.0-py3-none-any.whl", hash = "sha256:402576830425e5f6ce4c2a6702400ac79897dab0b4343821aa5188b0fab81a12"},
@@ -4859,7 +4859,7 @@ description = ""
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\" or extra == \"vector-stores-qdrant\" or extra == \"vector-stores-milvus\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\" or extra == \"vector-stores-milvus\" or extra == \"vector-stores-qdrant\""
 files = [
     {file = "protobuf-4.25.5-cp310-abi3-win32.whl", hash = "sha256:5e61fd921603f58d2f5acb2806a929b4675f8874ff5f330b7d6f7e2e784bbcd8"},
     {file = "protobuf-4.25.5-cp310-abi3-win_amd64.whl", hash = "sha256:4be0571adcbe712b282a330c6e89eae24281344429ae95c6d85e79e84780f5ea"},
@@ -4964,7 +4964,7 @@ description = "Pure-Python implementation of ASN.1 types and DER/BER/CER codecs 
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "pyasn1-0.6.1-py3-none-any.whl", hash = "sha256:0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629"},
     {file = "pyasn1-0.6.1.tar.gz", hash = "sha256:6f580d2bdd84365380830acf45550f2511469f673cb4a5ae3857a3170128b034"},
@@ -4977,7 +4977,7 @@ description = "A collection of ASN.1-based protocols modules"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "pyasn1_modules-0.4.1-py3-none-any.whl", hash = "sha256:49bfa96b45a292b711e986f222502c1c9a5e1f4e568fc30e2574a6c7d07838fd"},
     {file = "pyasn1_modules-0.4.1.tar.gz", hash = "sha256:c28e2dbf9c06ad61c71a075c7e0f9fd0f1b0bb2d2ad4377f240d33ac2ab60a7c"},
@@ -5200,7 +5200,7 @@ description = "JSON Web Token implementation in Python"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\""
+markers = "extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\""
 files = [
     {file = "PyJWT-2.9.0-py3-none-any.whl", hash = "sha256:3b02fb0f44517787776cf48f2ae25d8e14f300e6d7545a4315cee571a415e850"},
     {file = "pyjwt-2.9.0.tar.gz", hash = "sha256:7e1e5b56cc735432a7369cbfa0efe50fa113ebecdc04ae6922deba8b84582d0c"},
@@ -5249,7 +5249,7 @@ description = "pyparsing module - Classes and methods to define and execute pars
 optional = true
 python-versions = ">=3.6.8"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"ui\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"ui\""
 files = [
     {file = "pyparsing-3.1.4-py3-none-any.whl", hash = "sha256:a6a7ee4235a3f944aa1fa2249307708f893fe5717dc603503c6c7969c070fb7c"},
     {file = "pyparsing-3.1.4.tar.gz", hash = "sha256:f86ec8d1a83f11977c9a6ea7598e8c27fc5cddfa5b07ea2241edbbde1d7bc032"},
@@ -5438,7 +5438,7 @@ description = "Python for Window Extensions"
 optional = true
 python-versions = "*"
 groups = ["main"]
-markers = "(extra == \"llms-azopenai\" or extra == \"embeddings-azopenai\" or extra == \"vector-stores-qdrant\") and platform_system == \"Windows\""
+markers = "(extra == \"embeddings-azopenai\" or extra == \"llms-azopenai\" or extra == \"vector-stores-qdrant\") and platform_system == \"Windows\""
 files = [
     {file = "pywin32-306-cp310-cp310-win32.whl", hash = "sha256:06d3420a5155ba65f0b72f2699b5bacf3109f36acbe8923765c22938a69dfc8d"},
     {file = "pywin32-306-cp310-cp310-win_amd64.whl", hash = "sha256:84f4471dbca1887ea3803d8848a1616429ac94a4a8d05f4bc9c5dcfd42ca99c8"},
@@ -5732,7 +5732,7 @@ description = "Pure-Python RSA implementation"
 optional = true
 python-versions = ">=3.6,<4"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\" or extra == \"vector-stores-chroma\""
 files = [
     {file = "rsa-4.9-py3-none-any.whl", hash = "sha256:90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7"},
     {file = "rsa-4.9.tar.gz", hash = "sha256:e38464a49c6c85d7f1351b0126661487a7e0a14a50f1675ec50eb34d4f20ef21"},
@@ -5776,7 +5776,7 @@ description = "An Amazon S3 Transfer Manager"
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"llms-sagemaker\" or extra == \"embeddings-sagemaker\""
+markers = "extra == \"embeddings-sagemaker\" or extra == \"llms-sagemaker\""
 files = [
     {file = "s3transfer-0.10.2-py3-none-any.whl", hash = "sha256:eca1c20de70a39daee580aef4986996620f365c4e0fda6a86100231d62f1bf69"},
     {file = "s3transfer-0.10.2.tar.gz", hash = "sha256:0711534e9356d3cc692fdde846b4a1e4b0cb6519971860796e6bc4c7aea00ef6"},
@@ -6075,7 +6075,7 @@ description = "Easily download, build, install, upgrade, and uninstall Python pa
 optional = true
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "extra == \"vector-stores-qdrant\" or extra == \"vector-stores-milvus\" or extra == \"vector-stores-chroma\""
+markers = "extra == \"vector-stores-chroma\" or extra == \"vector-stores-milvus\" or extra == \"vector-stores-qdrant\""
 files = [
     {file = "setuptools-75.1.0-py3-none-any.whl", hash = "sha256:35ab7fd3bcd95e6b7fd704e4a1539513edad446c097797f2985e0e4b960772f2"},
     {file = "setuptools-75.1.0.tar.gz", hash = "sha256:d59a21b17a275fb872a9c3dae73963160ae079f1049ed956880cd7c09b120538"},
@@ -6585,6 +6585,11 @@ optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
+    {file = "torchvision-0.21.0-1-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:5568c5a1ff1b2ec33127b629403adb530fab81378d9018ca4ed6508293f76e2b"},
+    {file = "torchvision-0.21.0-1-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:ff96666b94a55e802ea6796cabe788541719e6f4905fc59c380fed3517b6a64d"},
+    {file = "torchvision-0.21.0-1-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:ffa2a16499508fe6798323e455f312c7c55f2a88901c9a7c0fb1efa86cf7e327"},
+    {file = "torchvision-0.21.0-1-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:7e9e9afa150e40cd2a8f0701c43cb82a8d724f512896455c0918b987f94b84a4"},
+    {file = "torchvision-0.21.0-1-cp39-cp39-manylinux_2_28_aarch64.whl", hash = "sha256:669575b290ec27304569e188a960d12b907d5173f9cd65e86621d34c4e5b6c30"},
     {file = "torchvision-0.21.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:044ea420b8c6c3162a234cada8e2025b9076fa82504758cd11ec5d0f8cd9fa37"},
     {file = "torchvision-0.21.0-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:b0c0b264b89ab572888244f2e0bad5b7eaf5b696068fc0b93e96f7c3c198953f"},
     {file = "torchvision-0.21.0-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:54815e0a56dde95cc6ec952577f67e0dc151eadd928e8d9f6a7f821d69a4a734"},
@@ -6893,7 +6898,7 @@ description = "Implementation of RFC 6570 URI Templates"
 optional = true
 python-versions = ">=3.6"
 groups = ["main"]
-markers = "extra == \"llms-gemini\" or extra == \"embeddings-gemini\""
+markers = "extra == \"embeddings-gemini\" or extra == \"llms-gemini\""
 files = [
     {file = "uritemplate-4.1.1-py2.py3-none-any.whl", hash = "sha256:830c08b8d99bdd312ea4ead05994a38e8936266f84b9a7878232db50b044e02e"},
     {file = "uritemplate-4.1.1.tar.gz", hash = "sha256:4346edfc5c3b79f694bccd6d6099a322bbeb628dbf2cd86eea55a456ce5124f0"},
